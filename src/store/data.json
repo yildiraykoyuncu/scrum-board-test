@@ -1,0 +1,33 @@
+{
+    "cards": {
+        "card-1": {"id": "card-1", "title": "title-1", "content": "Change the button color"},
+        "card-2": {"id": "card-2", "title": "title-2", "content": "Add delete cards feature"},
+        "card-3": {"id": "card-3", "title": "title-3", "content": "Fix the notification bug"},
+        "card-4": {"id": "card-4", "title": "title-4", "content": "Add authentication"}
+    },
+
+    "columns": {
+        "column-1": {
+            "id": "column-1",
+            "title": "story",
+            "cardIds": ["card-1", "card-2", "card-3", "card-4"]
+        },
+        "column-2": {
+            "id": "column-2",
+            "title": "to-do",
+            "cardIds": [""]
+        },
+        "column-3": {
+            "id": "column-3",
+            "title": "in progress",
+            "cardIds": [""]
+        },
+        "column-4": {
+            "id": "column-4",
+            "title": "done",
+            "cardIds": [""]
+        }
+    },
+
+    "columnOrder": ["column-1", "column-2", "column-3", "column-4"]
+}
